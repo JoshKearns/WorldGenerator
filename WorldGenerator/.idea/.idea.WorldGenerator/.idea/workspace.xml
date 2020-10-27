@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0d65663c-cfd0-4851-a504-75e675994dfb" name="Default Changelist" comment="" />
@@ -12,27 +12,42 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Script/RigidNoiseFilter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/INoiseFilter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/SimpleNoiseFilter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/NoiseFilterFactory.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/Noise.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/MinMax.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Editor/PlanetEditor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/SpinPlanet.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/ShapeSettings.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/NoiseSettings.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/ShapeGenerator.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Script/NoiseFilter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/TerrainFace.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/ColourSettings.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/ColourGenerator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/Planet.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Script/Noise.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Editor/PlanetEditor.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Script/ColorSettings.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/TerrainFace.cs" />
-        <option value="$PROJECT_DIR$/Assets/Editor/PlanetEditor.cs" />
-        <option value="$PROJECT_DIR$/Assets/Script/Planet.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/Noise.cs" />
-        <option value="$PROJECT_DIR$/Assets/Script/NoiseSettings.cs" />
-        <option value="$PROJECT_DIR$/Assets/Script/NoiseFilter.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/ShapeSettings.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/NoiseFilter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/INoiseFilter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/NoiseFilterFactory.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/SimpleNoiseFilter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/RigidNoiseFilter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/NoiseSettings.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/MinMax.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/ShapeGenerator.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/SpinPlanet.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/ColourSettings.cs" />
+        <option value="$PROJECT_DIR$/Assets/Editor/PlanetEditor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/ColourGenerator.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/Planet.cs" />
       </list>
     </option>
   </component>
@@ -82,7 +97,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1603811551438</updated>
-      <workItem from="1603811554270" duration="6708000" />
+      <workItem from="1603811554270" duration="15901000" />
+      <workItem from="1603830376917" duration="2195000" />
     </task>
     <servers />
   </component>
@@ -96,7 +112,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

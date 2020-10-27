@@ -28,6 +28,10 @@ public class PlanetEditor : Editor
         {
             planet.GeneratePlanet();
         }
+        if (GUILayout.Button("Randomise"))
+        {
+            planet.RandomisePlanet();
+        }
         
         DrawSettingsEditor(planet.shapeSettings, planet.OnShapeSettingsUpdated, ref planet.shapeSettingsFoldOut, ref shapeEditor);
         DrawSettingsEditor(planet.colourSettings, planet.OnColourSettingsUpdated, ref planet.colourSettingsFoldOut, ref colourEditor);
