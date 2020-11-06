@@ -7,3 +7,8 @@ Currently I'm following Sebastian Lague's planet generator playlist (https://www
 I'm looking to added everything randomly through code including trees/ bushes, rocks, ruins, animals, resources, etc. by spawning them above the surface and raycasting down to check for available/ suitable placements.
 
 Idealy I want multiple planets you can travel to and explore like a discount No Mans Sky.
+
+
+Josh Kearns
+C18709205
+DT508
