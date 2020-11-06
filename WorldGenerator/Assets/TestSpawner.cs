@@ -18,7 +18,7 @@ public class TestSpawner : MonoBehaviour
         
             var cube = Instantiate(testCube, _startPos, Quaternion.identity);
             cube.transform.LookAt(lookAtAngle);
-            //cube.transform.parent = transform;
+            cube.GetComponent<TestSpawnPlacement>().parentObject = gameObject;
         }
     }
 
