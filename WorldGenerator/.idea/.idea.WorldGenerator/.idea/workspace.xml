@@ -13,6 +13,8 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Script/RigidNoiseFilter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/TestSpawner.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/TestSpawnPlacement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/INoiseFilter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/SimpleNoiseFilter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Script/NoiseFilterFactory.cs" root0="FORCE_HIGHLIGHTING" />
@@ -43,11 +45,13 @@
         <option value="$PROJECT_DIR$/Assets/Script/NoiseSettings.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/MinMax.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/ShapeGenerator.cs" />
-        <option value="$PROJECT_DIR$/Assets/Script/SpinPlanet.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/ColourSettings.cs" />
-        <option value="$PROJECT_DIR$/Assets/Editor/PlanetEditor.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/ColourGenerator.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/SpinPlanet.cs" />
+        <option value="$PROJECT_DIR$/Assets/Editor/PlanetEditor.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/Planet.cs" />
+        <option value="$PROJECT_DIR$/Assets/TestSpawnPlacement.cs" />
+        <option value="$PROJECT_DIR$/Assets/TestSpawner.cs" />
       </list>
     </option>
   </component>
@@ -99,6 +103,11 @@
       <updated>1603811551438</updated>
       <workItem from="1603811554270" duration="15901000" />
       <workItem from="1603830376917" duration="2195000" />
+      <workItem from="1603843025826" duration="3897000" />
+      <workItem from="1603900368665" duration="1087000" />
+      <workItem from="1603902796070" duration="2933000" />
+      <workItem from="1604425473159" duration="44000" />
+      <workItem from="1604616016644" duration="1103000" />
     </task>
     <servers />
   </component>

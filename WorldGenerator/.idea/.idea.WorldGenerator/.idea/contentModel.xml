@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
     <e p="C:\Users\Josh\.Rider2019.2\system\extResources" t="IncludeRecursive" />
@@ -26,6 +26,8 @@
           <e p="SpinPlanet.cs" t="Include" />
           <e p="TerrainFace.cs" t="Include" />
         </e>
+        <e p="TestSpawner.cs" t="Include" />
+        <e p="TestSpawnPlacement.cs" t="Include" />
       </e>
       <e p="obj" t="ExcludeRecursive" />
       <e p="Packages" t="ExcludeRecursive" />
