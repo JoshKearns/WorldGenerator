@@ -5,8 +5,6 @@ using UnityEngine;
 public class TestSpawnPlacement : MonoBehaviour
 {
     private bool _placed;
-
-    public GameObject parentObject;
     // Start is called before the first frame update
     void Start()
     {
@@ -27,7 +25,6 @@ public class TestSpawnPlacement : MonoBehaviour
                 //Debug.Log(hit.point);
 
                 transform.position = hit.point;
-                transform.parent = parentObject.transform;
                 _placed = true;
             }
             else
