@@ -13,6 +13,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Maze.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/TorchScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/00. Planets/Script/MinMax.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.shadergraph@8.2.0/Editor/Drawing/MaterialGraphEditWindow.cs" root0="SKIP_HIGHLIGHTING" />
@@ -42,6 +43,7 @@
         <option value="$PROJECT_DIR$/Assets/PlayerPlanetGravity.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Maze.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/TorchScript.cs" />
       </list>
     </option>
   </component>
@@ -94,7 +96,7 @@
       <workItem from="1603811554270" duration="15901000" />
       <workItem from="1603830376917" duration="2195000" />
       <workItem from="1608742125799" duration="3165000" />
-      <workItem from="1608761803898" duration="817000" />
+      <workItem from="1608761803898" duration="1550000" />
     </task>
     <servers />
   </component>

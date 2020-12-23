@@ -34,6 +34,7 @@
           <e p="PlayerMovement.cs" t="Include" />
           <e p="PlayerPlanetGravity.cs" t="Include" />
         </e>
+        <e p="TorchScript.cs" t="Include" />
       </e>
       <e p="obj" t="ExcludeRecursive" />
       <e p="Packages" t="ExcludeRecursive" />
