@@ -10,8 +10,6 @@ public class Planet : MonoBehaviour
     public int resolution = 10;
     public bool autoUpdate = true;
 
-    public int planetRandomiser;
-
     public enum FaceRenderMask
     {
         All,
@@ -76,8 +74,6 @@ public class Planet : MonoBehaviour
 
     public void GeneratePlanet()
     {
-        planetRandomiser = UnityEngine.Random.Range(0, 100);
-        
         Initialize();
         GenerateMesh();
         GenerateColours(lastGradient);
@@ -85,11 +81,8 @@ public class Planet : MonoBehaviour
     
     public void RandomisePlanet()
     {
-        var randomX = UnityEngine.Random.Range(-50, 50) + (planetRandomiser * 2);
-        var randomY = UnityEngine.Random.Range(-50, 50) + (planetRandomiser * 2);
-        var randomZ = UnityEngine.Random.Range(-50, 50) + (planetRandomiser * 2);
-        shapeSettings.noiseLayers[0].noiseSettings.centre = new Vector3(randomX, randomY, randomZ);
-
+        shapeSettings.noiseLayers[0].noiseSettings.centre = new Vector3(UnityEngine.Random.Range(-50, 50), UnityEngine.Random.Range(-50, 50), UnityEngine.Random.Range(-50, 50));
+        
         var newGradient = UnityEngine.Random.Range(0, colourSettings.gradient.Length);
 
         while (newGradient == lastGradient)
@@ -131,6 +124,7 @@ public class Planet : MonoBehaviour
                 terrainFaces[i].ConstructMesh();
             }
         }
+        
         colourGenerator.UpdateElevation(shapeGenerator.elevationMinMax);
     }
 
