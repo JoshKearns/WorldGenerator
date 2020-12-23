@@ -7,7 +7,7 @@
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
-        <e p="Planets" t="Include">
+        <e p="00. Planets" t="Include">
           <e p="Editor" t="Include">
             <e p="PlanetEditor.cs" t="Include" />
           </e>
@@ -16,7 +16,6 @@
             <e p="ColourSettings.cs" t="Include" />
             <e p="INoiseFilter.cs" t="Include" />
             <e p="MinMax.cs" t="Include" />
-            <e p="MouseLook.cs" t="Include" />
             <e p="Noise.cs" t="Include" />
             <e p="NoiseFilterFactory.cs" t="Include" />
             <e p="NoiseSettings.cs" t="Include" />
@@ -28,10 +27,12 @@
             <e p="SpinPlanet.cs" t="Include" />
             <e p="TerrainFace.cs" t="Include" />
           </e>
-          <e p="Settings" t="Include">
-            <e p="PlayerMovement.cs" t="Include" />
-            <e p="PlayerPlanetGravity.cs" t="Include" />
-          </e>
+        </e>
+        <e p="Scripts" t="Include">
+          <e p="Maze.cs" t="Include" />
+          <e p="MouseLook.cs" t="Include" />
+          <e p="PlayerMovement.cs" t="Include" />
+          <e p="PlayerPlanetGravity.cs" t="Include" />
         </e>
       </e>
       <e p="obj" t="ExcludeRecursive" />
