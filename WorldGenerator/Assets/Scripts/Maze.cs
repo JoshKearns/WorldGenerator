@@ -47,6 +47,7 @@ public class Maze : MonoBehaviour
     public GameObject player;
 
     public GameObject coinPrefab;
+    public int numberOfCoins;
     
     // Start is called before the first frame update
     void Start()
@@ -189,15 +190,14 @@ public class Maze : MonoBehaviour
         }
         else
         {
-            /*
-            var playerSpawnX = Random.Range((int)-xSize/2, (int)xSize/2);
-            var playerSpawnZ = Random.Range((int)-ySize/2, (int)ySize/2);
-            
-            player.transform.position = new Vector3(playerSpawnX - 0.5f, 1f, playerSpawnZ);
-            
-            Debug.Log(playerSpawnX);
-            Debug.Log(playerSpawnZ);
-            Debug.Log("-");*/
+            numberOfCoins = Random.Range(0, (xSize * ySize)/2);
+            var xRange = xSize / 2 - 1;
+            var yRange = ySize / 2 - 1;
+
+            for (int i = 0; i < numberOfCoins; i++)
+            {
+                Instantiate(coinPrefab, new Vector3(Random.Range(-xRange, xRange) + 0.5f, 0, Random.Range(-yRange, yRange)), Quaternion.identity);
+            }
         }
     }
 
