@@ -54,8 +54,10 @@ public class Maze : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        xSize = Random.Range(6, 20);
-        ySize = Random.Range(6, 20);
+        //xSize = Random.Range(6, 20);
+        //ySize = Random.Range(6, 20);
+        xSize = MenuScript.globalXValue;
+        ySize = MenuScript.globalYValue;
         
         numberOfCoins = -1;
         

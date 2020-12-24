@@ -28,17 +28,19 @@
             <e p="TerrainFace.cs" t="Include" />
           </e>
         </e>
-        <e p="BillboardScript.cs" t="Include" />
-        <e p="CoinAnimate.cs" t="Include" />
-        <e p="CoinPickup.cs" t="Include" />
+        <e p="MenuScript.cs" t="Include" />
         <e p="Scripts" t="Include">
+          <e p="BillboardScript.cs" t="Include" />
+          <e p="CoinAnimate.cs" t="Include" />
+          <e p="CoinPickup.cs" t="Include" />
+          <e p="EndScene.cs" t="Include" />
           <e p="Maze.cs" t="Include" />
           <e p="MouseLook.cs" t="Include" />
           <e p="PlayerMovement.cs" t="Include" />
           <e p="PlayerPlanetGravity.cs" t="Include" />
+          <e p="SpawnRoom.cs" t="Include" />
           <e p="TorchScript.cs" t="Include" />
         </e>
-        <e p="SpawnRoom.cs" t="Include" />
       </e>
       <e p="obj" t="ExcludeRecursive" />
       <e p="Packages" t="ExcludeRecursive" />

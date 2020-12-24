@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class CoinPickup : MonoBehaviour
 {
@@ -17,7 +18,7 @@ public class CoinPickup : MonoBehaviour
     private void Update()
     {
         if (coinScore == _mazeScript.numberOfCoins)
-        {Debug.Log("Win");}
+            SceneManager.LoadScene("Win");
     }
 
     private void OnTriggerEnter(Collider other)
