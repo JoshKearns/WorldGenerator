@@ -10,9 +10,12 @@ public class CoinPickup : MonoBehaviour
 
     private Maze _mazeScript;
 
+    private AudioSource _audio;
+
     private void Start()
     {
         _mazeScript = GameObject.FindGameObjectWithTag("Maze").GetComponent<Maze>();
+        _audio = GetComponent<AudioSource>();
     }
 
     private void Update()
@@ -25,6 +28,7 @@ public class CoinPickup : MonoBehaviour
     {
         if (!other.CompareTag("Coin")) return;
         coinScore++;
+        _audio.Play();
         Destroy(other.gameObject);
     }
 }
