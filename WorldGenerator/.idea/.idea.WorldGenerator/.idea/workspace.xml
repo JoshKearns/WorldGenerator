@@ -50,12 +50,12 @@
         <option value="$PROJECT_DIR$/Assets/BillboardScript.cs" />
         <option value="$PROJECT_DIR$/Assets/SpawnRoom.cs" />
         <option value="$PROJECT_DIR$/Assets/CoinPickup.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/EndScene.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Maze.cs" />
         <option value="$PROJECT_DIR$/Assets/MenuScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EndScene.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CoinPickup.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" />
       </list>
     </option>
   </component>
@@ -109,7 +109,7 @@
       <workItem from="1603830376917" duration="2195000" />
       <workItem from="1608742125799" duration="3165000" />
       <workItem from="1608761803898" duration="8229000" />
-      <workItem from="1608819827395" duration="6378000" />
+      <workItem from="1608819827395" duration="6788000" />
     </task>
     <servers />
   </component>
