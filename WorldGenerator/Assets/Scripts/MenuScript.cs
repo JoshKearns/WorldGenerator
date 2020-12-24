@@ -34,7 +34,7 @@ public class MenuScript : MonoBehaviour
     {
         hText.text = hSlider.value.ToString();
         vText.text = vSlider.value.ToString();
-        mText.text = mouseSensitivity.value.ToString();
+        mText.text = mouseSensitivity.value.ToString("#.##");
     }
 
 
