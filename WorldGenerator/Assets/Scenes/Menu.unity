@@ -379,7 +379,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 6
+  m_Text: 1
 --- !u!222 &484839401
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -420,8 +420,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hSlider: {fileID: 1052618296}
   vSlider: {fileID: 704586335}
+  mouseSensitivity: {fileID: 764631259}
   hText: {fileID: 857351850}
   vText: {fileID: 856211953}
+  mText: {fileID: 484839400}
 --- !u!4 &647877431
 Transform:
   m_ObjectHideFlags: 0
@@ -748,7 +750,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 277.4, y: -145.3}
+  m_AnchoredPosition: {x: 0, y: 26.3}
   m_SizeDelta: {x: 160, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &764631259
@@ -871,7 +873,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Vertical
+  m_Text: Vertical Size
 --- !u!222 &805544407
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1913,14 +1915,14 @@ RectTransform:
   m_GameObject: {fileID: 1691225942}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.8413, y: 1.8413, z: 1.8413}
   m_Children: []
   m_Father: {fileID: 1817424665}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 106.7}
+  m_AnchoredPosition: {x: 0, y: 155.4}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1691225944
@@ -2422,7 +2424,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Horizontal
+  m_Text: Horizontal Size
 --- !u!222 &1827874312
 CanvasRenderer:
   m_ObjectHideFlags: 0
