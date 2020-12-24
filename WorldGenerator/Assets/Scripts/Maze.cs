@@ -43,6 +43,8 @@ public class Maze : MonoBehaviour
     public GameObject ceiling;
 
     public GameObject mapCamera;
+
+    public GameObject player;
     
     // Start is called before the first frame update
     void Start()
@@ -181,6 +183,16 @@ public class Maze : MonoBehaviour
             }
             
             Invoke(nameof(CreateMaze), 0);
+            
+        }
+        else
+        {
+            Debug.Log("Test");
+
+            var playerSpawnX = (((float)xSize / 2) - 1 * 0.5f);
+            var playerSpawnZ = (((float)ySize / 2) - 1 * 0.5f);
+            
+            //player.transform.position = new Vector3(playerSpawnX + 0.5f, 0.1f, playerSpawnZ);
         }
     }
 

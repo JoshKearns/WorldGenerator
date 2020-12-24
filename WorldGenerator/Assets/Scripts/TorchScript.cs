@@ -12,7 +12,7 @@ public class TorchScript : MonoBehaviour
     private void Start()
     {
         var randomNumber = Random.Range(0, 10);
-        if (randomNumber <= 5) return;
+        if (randomNumber <= 2) return;
         torchOne.SetActive(false);
         torchTwo.SetActive(false);
     }
