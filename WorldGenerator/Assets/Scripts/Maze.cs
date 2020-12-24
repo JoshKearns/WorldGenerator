@@ -47,7 +47,7 @@ public class Maze : MonoBehaviour
     public GameObject player;
 
     public GameObject coinPrefab;
-    public int numberOfCoins;
+    public int numberOfCoins = -1;
 
     private SpawnRoom _spawnRoomScript;
     
@@ -57,6 +57,7 @@ public class Maze : MonoBehaviour
         xSize = Random.Range(6, 20);
         ySize = Random.Range(6, 20);
         
+        numberOfCoins = -1;
         
         CreateWalls();
 

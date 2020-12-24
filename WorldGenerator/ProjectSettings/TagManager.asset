@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Coin
   - Wall
+  - Spawn
+  - Maze
   layers:
   - Default
   - TransparentFX
@@ -17,7 +19,7 @@ TagManager:
   - 
   - Ground
   - Player
-  - 
+  - MapIgnore
   - 
   - 
   - 
