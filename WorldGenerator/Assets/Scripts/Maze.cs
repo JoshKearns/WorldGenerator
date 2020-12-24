@@ -187,12 +187,15 @@ public class Maze : MonoBehaviour
         }
         else
         {
-            Debug.Log("Test");
-
-            var playerSpawnX = (((float)xSize / 2) - 1 * 0.5f);
-            var playerSpawnZ = (((float)ySize / 2) - 1 * 0.5f);
+            /*
+            var playerSpawnX = Random.Range((int)-xSize/2, (int)xSize/2);
+            var playerSpawnZ = Random.Range((int)-ySize/2, (int)ySize/2);
             
-            //player.transform.position = new Vector3(playerSpawnX + 0.5f, 0.1f, playerSpawnZ);
+            player.transform.position = new Vector3(playerSpawnX - 0.5f, 1f, playerSpawnZ);
+            
+            Debug.Log(playerSpawnX);
+            Debug.Log(playerSpawnZ);
+            Debug.Log("-");*/
         }
     }
 
