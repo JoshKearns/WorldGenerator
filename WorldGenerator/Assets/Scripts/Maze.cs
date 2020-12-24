@@ -50,6 +50,7 @@ public class Maze : MonoBehaviour
     public int numberOfCoins = -1;
 
     private SpawnRoom _spawnRoomScript;
+    private PlayerMovement _playerMovement;
     
     // Start is called before the first frame update
     void Start()
@@ -80,6 +81,7 @@ public class Maze : MonoBehaviour
         mapCamera.transform.position = new Vector3(offsetX, mapHeight, offsetY);
         
         _spawnRoomScript = GameObject.FindGameObjectWithTag("Spawn").GetComponent<SpawnRoom>();
+        _playerMovement = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerMovement>();
     }
 
     void CreateWalls()
@@ -211,6 +213,7 @@ public class Maze : MonoBehaviour
             }
             
             _spawnRoomScript.DestroySpawn();
+            _playerMovement.TurnOffBlindfold();
         }
     }
 

@@ -20,14 +20,20 @@ public class PlayerMovement : MonoBehaviour
     // Gravity
     public float gravity = -9.81f;
     private Vector3 velocity;
-    
-    //Under Water
-    public bool underWater = false;
+
+    public bool paused;
+    public GameObject blindfold;
     
     // Start is called before the first frame update
     void Start()
     {
-        
+        paused = true;
+    }
+
+    public void TurnOffBlindfold()
+    {
+        paused = false;
+        blindfold.SetActive(false);
     }
 
     // Update is called once per frame
@@ -37,7 +43,10 @@ public class PlayerMovement : MonoBehaviour
         {
             SceneManager.LoadScene("Menu");
         }
-        // Get controller input
+
+        if (!paused)
+        {
+            // Get controller input
             float x = Input.GetAxis("Horizontal");
             float z = Input.GetAxis("Vertical");
             
@@ -65,5 +74,6 @@ public class PlayerMovement : MonoBehaviour
                 
             // Movement
             controller.Move(move * speed * Time.deltaTime);
+        }
     }
 }
