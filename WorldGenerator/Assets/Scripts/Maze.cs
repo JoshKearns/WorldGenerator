@@ -38,11 +38,32 @@ public class Maze : MonoBehaviour
     private int _backingUp = 0;
 
     private int _wallToBreak = 0;
+
+    public GameObject floor;
+    public GameObject ceiling;
+
+    public GameObject mapCamera;
     
     // Start is called before the first frame update
     void Start()
     {
         CreateWalls();
+
+        var floorX = (float)xSize / 10;
+        var floorY = (float)ySize / 10;
+        var mapHeight = Mathf.Max(xSize, ySize);
+        float offsetX = 0;
+        float offsetY = 0;
+        offsetX = xSize % 2 == 0 ? 0 : 0.5f;
+        offsetY = ySize % 2 == 0 ? -0.5f : 0;
+        
+        floor.transform.localScale = new Vector3(floorX, 1, floorY);
+        ceiling.transform.localScale = new Vector3(floorX, 1, floorY);
+        
+        floor.transform.position = new Vector3(offsetX, -0.5f, offsetY);
+        ceiling.transform.position = new Vector3(offsetX, 0.5f, offsetY);
+        
+        mapCamera.transform.position = new Vector3(offsetX, mapHeight, offsetY);
     }
 
     void CreateWalls()
