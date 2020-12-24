@@ -30,6 +30,7 @@
         </e>
         <e p="BillboardScript.cs" t="Include" />
         <e p="CoinAnimate.cs" t="Include" />
+        <e p="CoinPickup.cs" t="Include" />
         <e p="Scripts" t="Include">
           <e p="Maze.cs" t="Include" />
           <e p="MouseLook.cs" t="Include" />

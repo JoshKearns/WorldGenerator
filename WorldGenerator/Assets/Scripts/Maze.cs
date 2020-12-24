@@ -45,6 +45,8 @@ public class Maze : MonoBehaviour
     public GameObject mapCamera;
 
     public GameObject player;
+
+    public GameObject coinPrefab;
     
     // Start is called before the first frame update
     void Start()
@@ -83,7 +85,7 @@ public class Maze : MonoBehaviour
         {
             for (var o = 0; o <= xSize; o++)
             {
-                myPos = new Vector3(_initialPos.x + (o*wallLength) - wallLength / 2, 0,
+                myPos = new Vector3(_initialPos.x + (o * wallLength) - wallLength / 2, 0,
                     _initialPos.z + (i * wallLength) - wallLength / 2);
 
                 tempWall = Instantiate(wall, myPos, Quaternion.identity) as GameObject;
@@ -97,7 +99,7 @@ public class Maze : MonoBehaviour
         {
             for (var o = 0; o < xSize; o++)
             {
-                myPos = new Vector3(_initialPos.x + (o*wallLength), 0,
+                myPos = new Vector3(_initialPos.x + (o * wallLength), 0,
                     _initialPos.z + (i * wallLength) - wallLength);
 
                 tempWall = Instantiate(wall, myPos, Quaternion.Euler(0, 90, 0)) as GameObject;

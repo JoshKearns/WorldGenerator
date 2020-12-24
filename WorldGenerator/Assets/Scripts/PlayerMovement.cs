@@ -43,59 +43,26 @@ public class PlayerMovement : MonoBehaviour
             // Calculate move direction
             Vector3 move = transform.right * x + transform.forward * z;
             
-            if (!underWater)
-            {
-                // Ground check
-                isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
+            // Ground check
+            isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
         
-                // Reset Velocity if grounded
-                if (isGrounded && velocity.y < 0)
-                {
-                    velocity.y = -2f;
-                }
-                
-                // Gravity
-                velocity.y += gravity * Time.deltaTime;
-                controller.Move(velocity* Time.deltaTime);
-                
-                // Jump
-                if (Input.GetButtonDown("Jump") && isGrounded)
-                {
-                    velocity.y = Mathf.Sqrt(jumpHeight * -2f * gravity);
-                }
-                
-                // Movement
-                controller.Move(move * speed * Time.deltaTime);
-            }
-            else
+            // Reset Velocity if grounded
+            if (isGrounded && velocity.y < 0)
             {
-                // Movement
-                controller.Move((move *.75f) * speed * Time.deltaTime);
-
-                // Gravity
-                velocity.y += gravity * Time.deltaTime;
-                controller.Move(velocity /2 * Time.deltaTime);
-        
-                // Jump
-                if (Input.GetButton("Jump"))
-                {
-                    velocity.y = Mathf.Sqrt(jumpHeight * -2f * gravity);
-                }
+                velocity.y = -2f;
             }
-    }
-
-    private void OnTriggerEnter(Collider other)
-    {
-        if (other.gameObject.CompareTag("Water"))
-        {
-            underWater = true;
-        }
-    }
-    private void OnTriggerExit(Collider other)
-    {
-        if (other.gameObject.CompareTag("Water"))
-        {
-            underWater = false;
-        }
+                
+            // Gravity
+            velocity.y += gravity * Time.deltaTime;
+            controller.Move(velocity* Time.deltaTime);
+                
+            // Jump
+            if (Input.GetButtonDown("Jump") && isGrounded)
+            {
+                velocity.y = Mathf.Sqrt(jumpHeight * -2f * gravity);
+            }
+                
+            // Movement
+            controller.Move(move * speed * Time.deltaTime);
     }
 }
