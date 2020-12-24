@@ -48,10 +48,16 @@ public class Maze : MonoBehaviour
 
     public GameObject coinPrefab;
     public int numberOfCoins;
+
+    private SpawnRoom _spawnRoomScript;
     
     // Start is called before the first frame update
     void Start()
     {
+        xSize = Random.Range(6, 20);
+        ySize = Random.Range(6, 20);
+        
+        
         CreateWalls();
 
         var floorX = (float)xSize / 10;
@@ -69,6 +75,8 @@ public class Maze : MonoBehaviour
         ceiling.transform.position = new Vector3(offsetX, 0.5f, offsetY);
         
         mapCamera.transform.position = new Vector3(offsetX, mapHeight, offsetY);
+        
+        _spawnRoomScript = GameObject.FindGameObjectWithTag("Spawn").GetComponent<SpawnRoom>();
     }
 
     void CreateWalls()
@@ -198,6 +206,8 @@ public class Maze : MonoBehaviour
             {
                 Instantiate(coinPrefab, new Vector3(Random.Range(-xRange, xRange) + 0.5f, 0, Random.Range(-yRange, yRange)), Quaternion.identity);
             }
+            
+            _spawnRoomScript.DestroySpawn();
         }
     }
 

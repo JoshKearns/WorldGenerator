@@ -20,6 +20,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/CoinPickup.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.shadergraph@8.2.0/Editor/Drawing/MaterialGraphEditWindow.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/SpawnRoom.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -50,6 +51,7 @@
         <option value="$PROJECT_DIR$/Assets/BillboardScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/CoinPickup.cs" />
+        <option value="$PROJECT_DIR$/Assets/SpawnRoom.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Maze.cs" />
       </list>
     </option>
@@ -104,7 +106,7 @@
       <workItem from="1603830376917" duration="2195000" />
       <workItem from="1608742125799" duration="3165000" />
       <workItem from="1608761803898" duration="8229000" />
-      <workItem from="1608819827395" duration="2103000" />
+      <workItem from="1608819827395" duration="3750000" />
     </task>
     <servers />
   </component>

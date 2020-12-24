@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 6141008426078752835}
   - component: {fileID: 6141008426078752846}
   - component: {fileID: 6141008426078752833}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -92,7 +92,7 @@ GameObject:
   - component: {fileID: 6141008426434836840}
   - component: {fileID: 6141008426434836855}
   - component: {fileID: 6141008426434836854}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Cylinder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -173,7 +173,7 @@ GameObject:
   - component: {fileID: 6141008426743191335}
   - component: {fileID: 6141008426743191330}
   - component: {fileID: 6141008426743191333}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Cylinder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -253,7 +253,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6141008426994782499}
   - component: {fileID: 6141008426994782498}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Area Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -344,7 +344,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6141008427312161023}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Model
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -377,7 +377,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6141008427319452192}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Torch
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -410,7 +410,7 @@ GameObject:
   - component: {fileID: 6141008427450712104}
   - component: {fileID: 6141008427450712119}
   - component: {fileID: 6141008427450712118}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Sphere
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -493,7 +493,7 @@ GameObject:
   - component: {fileID: 6141008427735146832}
   - component: {fileID: 6141008427735146847}
   - component: {fileID: 6141008427735146846}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Sphere
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -574,7 +574,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6141008427809814843}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Model
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -657,7 +657,7 @@ GameObject:
   - component: {fileID: 6141008427980129269}
   - component: {fileID: 6141008427980129264}
   - component: {fileID: 6141008427980129267}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -741,7 +741,7 @@ GameObject:
   - component: {fileID: 4693275876562994929}
   m_Layer: 0
   m_Name: Wall Model
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -832,7 +832,7 @@ GameObject:
   m_Component:
   - component: {fileID: 9057978122823460109}
   - component: {fileID: 9057978122823460146}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Area Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -923,7 +923,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9057978123650379139}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Torch
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -967,6 +967,10 @@ PrefabInstance:
     - target: {fileID: 2537296310614678275, guid: a7f9a597a50641143a761ac01d3819d3, type: 3}
       propertyPath: m_Name
       value: Particle System
+      objectReference: {fileID: 0}
+    - target: {fileID: 2537296310614678275, guid: a7f9a597a50641143a761ac01d3819d3, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 9165239760264004658, guid: a7f9a597a50641143a761ac01d3819d3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1041,6 +1045,10 @@ PrefabInstance:
     - target: {fileID: 2537296310614678275, guid: a7f9a597a50641143a761ac01d3819d3, type: 3}
       propertyPath: m_Name
       value: Particle System
+      objectReference: {fileID: 0}
+    - target: {fileID: 2537296310614678275, guid: a7f9a597a50641143a761ac01d3819d3, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 9165239760264004658, guid: a7f9a597a50641143a761ac01d3819d3, type: 3}
       propertyPath: m_LocalPosition.x
